@@ -68,7 +68,7 @@ This project was developed by a team. My main contributions were:
 
 * Yassin Mohamed Saleh
 * Fatma Shaaban
-* Kareem Mohamed Elmahdy
+* Kareem Mohamed ElMahdy
 
 ## Project Structure
 
