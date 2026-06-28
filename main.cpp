@@ -1,17 +1,14 @@
-#include "Admin.h"
-#include "Game.h"
+#include "mainwindow.h"
 
-int main() {
-    Admin admin;
-    while (true) {
-        // Must log in or register before playing
-        if (!admin.showAuthMenu()) {
-            return 0;
-        }
+#include <QApplication>
 
-        Game game;
-        game.playGame();
-    }
+int main(int argc, char *argv[])
+{
+    QApplication a(argc, argv);
+    a.setApplicationName("SpyGameQt");
+    a.setOrganizationName("SpyGame");
 
-    return 0;
+    MainWindow w;
+    w.show();
+    return QApplication::exec();
 }
